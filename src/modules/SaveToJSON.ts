@@ -1,6 +1,5 @@
 import Activity from "./ActivityClass"
 
-// Saves the array of activities into a JSON file. Every JSON file created is named after the category of the activities. If the file already exists, the function will ask the user if they want to overwrite it.
 export default function saveToJSON(activities: Activity[]): void {
     let fs = require("fs");
     let readline = require("readline-sync");

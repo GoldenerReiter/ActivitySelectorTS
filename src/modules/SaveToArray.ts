@@ -1,6 +1,5 @@
 import Activity from "./ActivityClass";
 
-// Creates a function that saves into an array a set of activities with readline input from the user. If the user inputs "quit", the function stops.
 export default function saveToArray(): Activity[] {
     let readline = require("readline-sync");
 

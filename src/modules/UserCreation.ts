@@ -1,9 +1,6 @@
 import User  from "./UserCapabilities";
 import  Activity from "./ActivityClass"
 
-// A function that first, asks the user for a category for searching the JSON file with the activities corresponding to thta category 
-// then asks the user for their name, energy, and time, and then returns an array of activities that the user can do.
-
 export default function userCreation(): void {
     let fs = require("fs");
     let readline = require("readline-sync");

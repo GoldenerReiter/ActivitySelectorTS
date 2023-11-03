@@ -1,5 +1,3 @@
-// Activity class that contains the activity data. A string name, a string description, a number duration, and a number intensity.
-
 export default class Activity {
     name: string;
     description: string;
